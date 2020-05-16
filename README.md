@@ -52,9 +52,9 @@ $ oz send-tx
 
 | Name               | Website                      |
 | ------------------ | ---------------------------- |
-| **Kames Geraghty** | <https://github.com/kamescg> |
 | **Joe Bernitt**    | <https://github.com/joeb000> |
+| **Kames Geraghty** | <https://github.com/kamescg> |
 
 ## License
 
-[MIT](LICENSE) © [Kames Geraghty](https://github.com/kamescg)
+[MIT](LICENSE) © [Ethereum Developer Alliance](https://github.com/EthereumDeveloperAlliance)

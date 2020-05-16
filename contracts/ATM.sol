@@ -21,7 +21,6 @@ contract ATM is Ownable {
     // Variables
     /* -------------------------------------- */
     /* --- Variables : Public --- */
-    string public name;
     mapping (bytes32 => bool) public certificateClaimed;
     mapping (address => mapping (address => bool)) public delegates;
 
@@ -33,10 +32,8 @@ contract ATM is Ownable {
     /* -------------------------------------- */
 
     constructor (
-        string memory _name,
         address _issuer
     ) public {
-        name = _name;
         _delegate.add(_issuer);
     }
 
